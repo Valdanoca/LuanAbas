@@ -15,7 +15,7 @@ body {
 header {
     background: #ff5da2;
     color: white;
-    padding: 1rem 0;
+    padding: 16px;
     text-align: center;
 }
 
@@ -25,9 +25,11 @@ header .logo h1 {
 }
 
 header .logo p {
-    font-size: 1rem;
+    font-size: 16px;
     margin-bottom: 1rem;
 }
+
+
 
 header nav ul {
     display: flex;
@@ -87,20 +89,27 @@ header nav ul li a:hover {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
     gap: 1.5rem;
+    
 }
 
 .produto-card {
-    border: 1px solid #ddd;
+    border: 2px solid #e5cdcd;
     border-radius: 5px;
     padding: 1rem;
     text-align: center;
     background: #f8f8f8;
 }
+/* tratamentode link */
+.link{
+    text-decoration: none;
+    color: #120f0f;
+}
 
+/* Mudanças */
 .produto-card img {
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 1rem;
+    max-width: 200px;
+    height: 200px;
+   
 }
 
 .produto-card h3 {
@@ -125,10 +134,10 @@ header nav ul li a:hover {
     margin-bottom: 1rem;
 }
 
-.contato form {
+/* .contato form {
     max-width: 500px;
     margin: 0 auto;
-}
+} */
 
 .contato input, .contato textarea {
     width: 100%;
@@ -149,6 +158,10 @@ header nav ul li a:hover {
 
 .contato button:hover {
     background: #ff8ab8;
+}
+img{
+    background-color:#333;
+    height: 50px;
 }
 
 /* Rodapé */
